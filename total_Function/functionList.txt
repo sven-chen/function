@@ -7,6 +7,10 @@
 }
 
 2、promise的使用
+//下面是解决IE兼容性问题：
+//引入 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+//或 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"></script>
+
 function getServiceOption() {
 	const promise = new Promise(function(resolve, reject) {
 		$.ajax({
