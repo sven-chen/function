@@ -37,3 +37,30 @@ svenQuery().then(function(data) {
 }, function(error) {
 	console.log(error);
 })
+
+// promise请求模板封装：
+function sventest(myurl, method) {
+    const sven = new Promise(function(resolve, reject){
+        $.ajax({
+            type: method,
+            url: myurl,
+            async: true,
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            success: function(data) {
+                resolve(data);
+            },
+            error: function(msg) {
+                reject(msg);
+            }
+        });
+    });
+    return sven;
+}
+
+sventest("/api/v1/getList", "get").then(function(data){
+    console.log(data);
+}, function(data){
+    console.log(data);
+});
