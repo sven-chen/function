@@ -11,11 +11,11 @@
 //引入 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 //或 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"></script>
 
-function getServiceOption() {
+function svenQuery() {
 	const promise = new Promise(function(resolve, reject) {
 		$.ajax({
 			type: "get",
-			url: "/ebox/api/v1/box/member/queryBoxServiceList",
+			url: "/api/v1/queryList",
 			async: true,
 			headers: {
 				'Content-Type': 'application/json'
@@ -31,7 +31,7 @@ function getServiceOption() {
 	return promise
 }
 
-getServiceOption().then(function(data) {
+svenQuery().then(function(data) {
 	console.log(data);
 	// do some thing
 }, function(error) {
