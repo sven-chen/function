@@ -1,4 +1,4 @@
-1、loading按钮加载效果
+一、loading按钮加载效果
 .loading {
 	height: 100px;
 	margin-left: 45%;
@@ -6,7 +6,7 @@
 	background: url("data:image/gif;base64,R0lGODdhGQAZAOMLAP///5CQkHBwcDAwMNDQ0LCwsMDAwFBQUODg4KCgoIyMjP///wAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgALACwAAAAAGQAZAAAEZnDJSVe4NWt6w/5VB1ZFJlKFlxVsiE3GSRFsOcnWm9HthmssAlA3KhqPSKNhyTQKnlBmswiNSg3OqiDJ7XpHBOHmcAAhwgSEJkAua85htWRAv7U16Ap9wLnvMnshbkaBXwuFX4gbEQAh+QQJCgALACwAAAAAGQAZAAAEZ3DJSVe5NWt6y/5VB1ZEJnKBRqwhNhlBnCFrOZ1SnGo0u+mjFUJTkI2OyKRSWashdbqmbwSNSW3U6nLL7Y4Gg49AAFKAB+RMYpzOCM7tg3yyHmvOFfmBUm9TwnlzfH4jel4ShoeJHxEAIfkECQoACwAsAAAAABkAGQAABGlwyUmXuTVres3+VQdWRCZSRKERbIhNaaFWCFtOpyTPWd1uuxELsZKNjsikcjloOpGBqNT5PEqn1AH0Glh6v+DR4fCJggLjQzdTkG7Q4/VCQJ+0zZl0hS6g3OUUZHt1foAjfGESiImLHxEAIfkECQoACwAsAAAAABkAGQAABGdwyUkXuTVresn+VQdWQyZyhjasITYhRpwJazmdUpxqSv3po5VAQ5CNjsikUnloOpGFqNT5PEqn1AP0Wlh6v+CRYLgJBECFsSChKZjPmoSaLXlP3GaNumK/9ytkFH8SbkqDX4deiRURACH5BAkKAAsALAAAAAAZABkAAARlcMlJ17g1a3rH/lUHVkcmUgihHWyITSmhVgFbTqckz1ndbrsRK6CJjY7IpHIpaDqRhqjU+TxKp1QB9GpYer/gUYC4KRRAhnHgnCGY2ZmCGq6euM2aOkWve+d7YxVuSnxghV+HGREAIfkECQoACwAsAAAAABkAGQAABGVwyUnXuTVres/+VQdWQiZSwqAJbIhNyiBnCVtOpySrWmF/uxErsZqNjsikUhloOpGEqNT5PEqn1AD0Slh6v+BR82MwgAzOgoZQNvfSk4J8wi5rqvE5vX3PyNUUbEp/YRKEhYcfEQAh+QQJCgALACwAAAAAGQAZAAAEaXDJSZe4NWt6xf5VB1ZBJlLBoQVsiE3poVYFW06nJM+ZYX+7Eauwko2OyKRyafsdB9Bos/WMQqe3kRW67Hq/owJxQyCACOKCOYMorzNo8dtAn7TLmnSFbqDc3xRjFHwVbUqEYAuIYIsbEQAh+QQJCgALACwAAAAAGQAZAAAEZ3DJSVe4NWt6w/5VB4aZSCWCZk7rUghwVrQtnGpGW9njVWio22hILBqLhaSSeGg6lcuh8wn9SaeHo3bLHRkMn8EAhPgaCBqBeKwhmNESgnyiFuO+FTlcUmdXwHlzFGpGel1xgl2GIBEAOw==") no-repeat;
 }
 
-2、promise的使用
+二、promise的使用
 //下面是解决IE兼容性问题：
 //引入 <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
 //或 <script type="text/javascript" src="https://cdn.polyfill.io/v2/polyfill.min.js?features=es6"></script>
@@ -64,3 +64,6 @@ sventest("/api/v1/getList", "get").then(function(data){
 }, function(data){
     console.log(data);
 });
+
+三、typescript资料：
+https://github.com/xcatliu/typescript-tutorial.git (fetch)
