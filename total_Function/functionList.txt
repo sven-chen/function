@@ -67,3 +67,8 @@ sventest("/api/v1/getList", "get").then(function(data){
 
 三、typescript资料：
 https://github.com/xcatliu/typescript-tutorial.git (fetch)
+
+四、vue + TS项目地址
+项目介绍：vue-ts-daily  （vue2.5 + Typescript + vuex + vue-router）
+地址：https://github.com/xiaomuzhu/vue-ts-daily
+blog地址：https://blog.csdn.net/weixin_33824363/article/details/89701605
